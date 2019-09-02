@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Text size-->
+    <dimen name="text_size_small">10sp</dimen>
+    <dimen name="text_size_medium">12sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_app_name_splash_screen">18sp</dimen>
+
+    <!--Button size-->
+    <dimen name="button_dial_number_size">72dp</dimen>
+    <dimen name="text_size_item_setting">16sp</dimen>
+
+    <!-- the size of material standard -->
+    <dimen name="marginLeft">16dp</dimen>
+    <dimen name="marginRight">16dp</dimen>
+    <dimen name="marginTop">16dp</dimen>
+    <dimen name="marginBot">16dp</dimen>
+
+    <!--In coming screen-->
+    <dimen name="linButtonMarginLeft">20dp</dimen>
+    <dimen name="linButtonMarginRight">20dp</dimen>
+    <dimen name="linButtonMarginBottom">40dp</dimen>
+    <dimen name="sizeOfImageAvatarInfo">80dp</dimen>
+    <dimen name="sizeOfTextNumberInComingCalling">20sp</dimen>
+
+    <!--dial screen-->
+    <dimen name="button_dial_call">92dp</dimen>
+
+    <!--marin fab-->
+    <dimen name="fab_marin">30dp</dimen>
+    <dimen name="marin_30">30dp</dimen>
+</resources>

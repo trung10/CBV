@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">CBV</string>
+    <!--Navigation view menu-->
+    <string name="text_menu_call">Dial</string>
+    <string name="text_menu_contract">Contacts</string>
+    <string name="text_menu_history">History</string>
+    <string name="text_menu_setting">Setting</string>
+    <string name="text_menu_theme">Themes</string>
+
+    <!--Home title-->
+    <string name="text_tile_dial_number">CALL</string>
+    <string name="text_tile_setting">SETTING</string>
+    <string name="tv_title_toolbar_history">HISTOTY</string>
+    <string name="text_number_zero">o\n+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_enable_call_record">Enable CBV</string>
+    <string name="text_enable_permission_contact">Enable permission contacts</string>
+    <string name="text_rate_app">Rate app</string>
+    <string name="text_term_of_use">Term of use</string>
+    <string name="text_title_term_of_use">TERM OF USE</string>
+
+    <!--URL Webview-->
+    <string name="url_term_of_use">https://en.wikipedia.org/wiki/Mobile_phone_overuse</string>
+    <string name="themes">THEMES</string>
+    <string name="text_title_privacy_policy">PRIVACY POLICY</string>
+    <string name="txt_term_of_you_dumy">Yeu nhau di de mot mai chia ly \n roi co nhau</string>
+
+    <!--contact fragment-->
+    <string name="contact_title">CONTACTS</string>
+
+
+    <string name="text_title_success">Success!</string>
+    <string name="text_title_error">Error!</string>
+    <string name="text_title_delete">Delete?</string>
+
+
+
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".incomming.InCommingActivity">
+
+    <VideoView
+        android:id="@+id/video_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:foregroundGravity="center" />
+
+    <!--info of calling out and coming-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical|left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_avatar"
+            android:layout_width="@dimen/sizeOfImageAvatarInfo"
+            android:layout_height="@dimen/sizeOfImageAvatarInfo"
+            android:src="@drawable/img_avatar_incoming" />
+
+        <TextView
+            android:id="@+id/txtNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:text="John"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/sizeOfTextNumberInComingCalling"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/fab_marin"
+            android:background="?attr/selectableItemBackground"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_close" />
+    </FrameLayout>
+
+    <!--button accept call and reject-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearSelect"
+        android:layout_marginLeft="@dimen/linButtonMarginLeft"
+        android:layout_marginRight="@dimen/linButtonMarginRight"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_reject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/call_off"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/btn_accept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/call"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/marin_30"
+        android:layout_marginTop="@dimen/marin_30"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/marin_30"
+            android:layout_marginRight="@dimen/marin_30"
+            android:background="@drawable/border_button"
+            android:text="Select"
+            android:textAllCaps="false"
+            android:textColor="@color/whiteTextColor"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:visibility="visible"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/marin_30"
+            android:layout_marginRight="@dimen/marin_30"
+            android:max="100"
+            android:progress="45"
+            android:progressDrawable="@drawable/custom_progress_drawable" />
+    </LinearLayout>
+
+</RelativeLayout>

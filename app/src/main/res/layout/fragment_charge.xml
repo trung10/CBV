@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <thuannv.pageslider.PageSliderView
+        android:id="@+id/image_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoSlide="true"
+        app:autoSlideDuration="3000" />
+
+
+    <LinearLayout
+        android:id="@+id/linearRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/group_charge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <com.fourtsoft.bvc.utils.ChargeViewApp
+                android:id="@+id/item_container_three_day"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.fourtsoft.bvc.utils.ChargeViewApp
+                android:id="@+id/item_container_one_mouth"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+            <com.fourtsoft.bvc.utils.ChargeViewApp
+                android:id="@+id/item_container_one_year"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btn_buy"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/btn_buy_charge"
+            android:layout_marginBottom="40dp"
+            app:backgroundTint="@color/color_charge_item"
+            app:elevation="4dp"
+            app:fabCustomSize="30dp"
+            app:pressedTranslationZ="4dp" />
+    </LinearLayout>
+
+</LinearLayout>

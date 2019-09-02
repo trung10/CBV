@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    tools:context=".incomming.InCommingActivity">
+
+    <VideoView
+        android:foregroundGravity="center"
+        android:id="@+id/video_background"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--info of calling out and coming-->
+    <LinearLayout
+        android:gravity="center_vertical|left"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="@dimen/marginLeft"
+        android:layout_marginRight="@dimen/marginRight"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/btn_avatar"
+            android:layout_width="@dimen/sizeOfImageAvatarInfo"
+            android:src="@drawable/call"
+            android:layout_height="@dimen/sizeOfImageAvatarInfo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="0975111355"
+            android:textColor="@color/color_white"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/marginLeft"
+            android:textSize="@dimen/sizeOfTextNumberInComingCalling"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>
+
+    <!--button accept call and reject-->
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/linButtonMarginLeft"
+        android:layout_marginRight="@dimen/linButtonMarginRight"
+        android:layout_marginBottom="@dimen/linButtonMarginBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/btn_reject"
+            android:layout_width="wrap_content"
+            android:background="@drawable/call_off"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/btn_accept"
+            android:layout_width="wrap_content"
+            android:background="@drawable/call"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

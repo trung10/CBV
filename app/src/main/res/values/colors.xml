@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- color default -->
+    <color name="colorPrimary">#00bbab</color>
+    <color name="colorPrimaryDark">#00bbab</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <!--color background splash screen-->
+    <color name="colorBackgroundSplash">#00bbab</color>`
+
+    <!--text color-->
+    <color name="whiteTextColor">#FFFFFF</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+
+
+    <!--Title color home-->
+    <color name="colorTitleHome">#000000</color>
+
+    <color name="colorButtonCall">#1CDE64</color>
+    <color name="color_divider_white_gray">#ebebeb</color>
+    <color name="color_background_progress">#bebebe</color>
+    <color name="color_term_divider">#848282</color>
+
+    <color name="color_switch_not_check">#848282</color>
+    <color name="color_switch_check">#008a7c</color>
+
+    <!--alter dialog-->
+    <color name="primary_read">#E53935</color>
+    
+    <color name="primary_orange">#E65100</color>
+    
+    <color name="color_dialog_success">#71C341</color>
+
+    <color name="colorSplashScreenBackground">#008a7c</color>
+
+    <color name="color_charge_item">@color/colorPrimary</color>
+    <color name="color_primary_dark">#008a7c</color>
+</resources>

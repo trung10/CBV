@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    android:layout_margin="8dp"
+    android:layout_gravity="center_vertical"
+    android:background="?android:attr/selectableItemBackground"
+    >
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:src="@drawable/ic_call_green_24dp"
+      />
+  <ImageView
+      android:id="@+id/img_avatar"
+      android:layout_width="56dp"
+      android:layout_height="match_parent"
+      android:layout_marginStart="8dp"
+      android:layout_marginEnd="8dp"
+      />
+  <TextView
+      android:id="@+id/tv_name"
+      android:layout_width="0dp"
+      android:layout_weight="1"
+      android:layout_height="match_parent"
+      android:text="Name"
+      android:singleLine="true"
+      android:gravity="center_vertical"
+      />
+
+  <TextView
+      android:id="@+id/tv_date_time"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="20 08 2018"
+      android:gravity="center_vertical"
+      />
+
+</LinearLayout>
